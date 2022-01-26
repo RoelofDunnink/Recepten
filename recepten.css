@@ -85,7 +85,8 @@ footer ul {
 footer li {
   display: inline;
   width: fit-content;
-  margin: 0.4rem;
+  margin: 0.1rem;
+  font-size: 10pt;
 }
 main {
   margin: 2rem;
