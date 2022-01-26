@@ -21,7 +21,7 @@
 body {
   background-color: azure;
   color: brown;
-  font-size: 1.0rem;
+  font-size: 1.1rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -38,7 +38,7 @@ h1 {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: darkgreen;
   text-align: center;
-  font-size: 250%;
+  font-size: 200%;
 }
 h2 {
   color: rgba(148, 8, 8, 0.726);
