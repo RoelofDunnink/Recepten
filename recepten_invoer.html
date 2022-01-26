@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recepten Invoer</title>
+    <link rel="stylesheet" style="css/text" href="recepten.css" />
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <h1>Invoer Van Recepten</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="alle_recepten.html">Alle recepten</a></li>
+          <li><a href="keukens.html">Keukens</a></li>
+          <li><a href="recepten_invoer.html">Invoer recepten</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Uw eigen recept invoeren</h2>
+      <p>
+        Hieronder kunt u uw eigen recept invoeren. Wees hierbij duidelijk en
+        nauwkeurig zodat een andere kok een duidelijk recept krijgt en dus een
+        heerlijke maaltijd kan maken. Onder het kopje "Opmerkingen" kunt u
+        eventuele aanvullingen plaatsen tbv het recept. Onder het kopje
+        "Feedback" graag uw mening over deze site.
+      </p>
+      <h2>Recepten Invoer</h2>
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          Naam
+          <label> <input type="text" name="name" /></label>
+        </p>
+        <p>
+          Email
+          <label> <input type="email" name="email" /></label>
+        </p>
+        <p>
+          Geboorte datum
+          <label> <input type="date" name="Birthdate" /></label>
+        </p>
+        <p>
+          Leeftijd
+          <label> <input type="number" name="Leeftijd" /></label>
+        </p>
+        <p>
+          Geslacht:
+          <label><input type="radio" name="Geslacht" />Man </label>
+          <label> <input type="radio" name="Geslacht" />Vrouw </label>
+          <label> <input type="radio" name="Geslacht" />Neutraal </label>
+        </p>
+        <p>
+          Recept uploaden
+          <label> <input type="file" name="Recept" /></label>
+        </p>
+        <p>
+          Favoriete Keuken:
+          <label> <input type="checkbox" name="Amerikaans" />Amerikaans</label>
+          <label> <input type="checkbox" name="Chinees" />Chinees</label>
+          <label> <input type="checkbox" name="Italiaans" />Italiaans</label>
+          <label> <input type="checkbox" name="Arabisch" />Arabisch</label>
+          <label> <input type="checkbox" name="Frans" />Frans</label>
+          <label> <input type="checkbox" name="Spaans" />Spaans</label>
+        </p>
+        <p>
+          Schortkleur
+          <label> <input type="color" name="Kleur" /></label>
+        </p>
+        <p>
+          Link naar uw recept:
+          <label> <input type="url" name="URL" /></label>
+        </p>
+        <p>
+          Opmerkingen
+          <label>
+            <textarea rows="10" cols="30" name="Opmerkingen"></textarea>
+          </label>
+        </p>
+        <p>
+          Feedback
+          <label>
+            <textarea rows="10" cols="30" name="Feedback"></textarea>
+          </label>
+        </p>
+        <p>
+          <button type="submit">Verzenden</button>
+        </p>
+        <p>
+          <button type="reset">Reset</button>
+        </p>
+      </form>
+    </main>
+    <footer>
+      <div>&copy;Roelof's Keuken</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="alle_recepten.html">Alle recepten</a></li>
+          <li><a href="keukens.html">Keukens</a></li>
+          <li><a href="recepten_invoer.html">Invoer recepten</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

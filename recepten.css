@@ -1,0 +1,172 @@
+/*css styling*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+.img {
+  width: 15rem;
+  float: right;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+#floatleft {
+  text-align: center;
+  font-size: 150%;
+}
+body {
+  background-color: azure;
+  color: brown;
+  font-size: 1.1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header div {
+  background-color: burlywood;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  border-bottom-style: double;
+  border-bottom-color: coral;
+  margin: 0rem;
+}
+h1 {
+  -webkit-text-fill-color: rgba(126, 243, 126, 0.562);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: darkgreen;
+  text-align: center;
+  font-size: 250%;
+}
+h2 {
+  color: rgba(148, 8, 8, 0.726);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: bold;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+a {
+  color: rgba(104, 33, 104, 0.61);
+  text-decoration: none;
+  list-style-type: none;
+}
+header ul {
+  text-align: center;
+  padding-top: 2rem;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+header li {
+  display: inline;
+  text-align: center;
+  border: 5px solid pink;
+  border-radius: 12px;
+  background-color: rgba(85, 122, 233, 0.596);
+  padding: 1px 10px 4px;
+}
+
+footer {
+  font-size: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 1.6rem;
+  padding-top: 5rem;
+  border-top: double 3px sandybrown;
+}
+footer div {
+  margin: 0 auto;
+  width: fit-content;
+}
+footer ul {
+  text-align: center;
+}
+footer li {
+  display: inline;
+  width: fit-content;
+  margin: 0.5rem;
+}
+main {
+  margin: 2rem;
+  margin-top: 5rem;
+  color: rgba(107, 15, 15, 0.87);
+}
+main ul {
+  margin-left: 3rem;
+}
+main label {
+  color: rgb(0, 160, 0);
+  display: block;
+  font-size: 10pt;
+}
+main form {
+  color: hotpink;
+  font-size: 14pt;
+}
+main p {
+  padding-bottom: 0;
+  padding-top: 1rem;
+}
+@media screen and (min-width: 700px) {
+  body {
+    background-color: azure;
+    color: brown;
+    font-size: 1.8rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  header ul {
+    font-size: 90%;
+  }
+  h1 {
+    font-size: 230%;
+  }
+  .img {
+    width: 60%;
+    float: right;
+    margin-left: 3rem;
+    margin-top: auto;
+  }
+  p {
+    font-size: 70%;
+  }
+  #floatleft {
+    text-align: center;
+    font-size: 120%;
+  }
+  main form {
+    color: hotpink;
+    font-size: 120%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: azure;
+    color: brown;
+    font-size: 2rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  header ul {
+    font-size: 90%;
+  }
+  h1 {
+    font-size: 230%;
+  }
+  .img {
+    width: 60%;
+    float: right;
+    margin-left: 3rem;
+    margin-top: auto;
+  }
+  p {
+    font-size: 70%;
+  }
+  #floatleft {
+    text-align: center;
+    font-size: 120%;
+  }
+  main form {
+    color: hotpink;
+    font-size: 120%;
+  }
+}
