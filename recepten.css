@@ -38,7 +38,7 @@ h1 {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: darkgreen;
   text-align: center;
-  font-size: 200%;
+  font-size: 250%;
 }
 h2 {
   color: rgba(148, 8, 8, 0.726);
@@ -57,7 +57,7 @@ header ul {
   text-align: center;
   padding-top: 2rem;
   margin: 0 auto;
-  font-size: 1rem;
+  font-size: 100%;
 }
 header li {
   display: inline;
